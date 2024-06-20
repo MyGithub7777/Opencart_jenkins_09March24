@@ -1,0 +1,44 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 114.52 s <<< FAILURE! - in TestSuite
+verifyLoginTestWithInvalidDetails(com.opencart.testLayer.LoginTest)  Time elapsed: 20.552 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on windows (60ab71c4e55907493fbd564ad252f5c2)] -> xpath: //span[text()='My Account']] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.176, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53415}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53415/devtoo..., se:cdpVersion: 125.0.6422.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 60ab71c4e55907493fbd564ad252f5c2
+	at com.opencart.testLayer.LoginTest.verifyLoginTestWithInvalidDetails(LoginTest.java:44)
+
+verifyLoginTestWithValidDetails(com.opencart.testLayer.LoginTest)  Time elapsed: 20.241 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on windows (d73a90cdf9889db3fe30c12ec29307a7)] -> xpath: //span[text()='My Account']] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.176, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53473}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53473/devtoo..., se:cdpVersion: 125.0.6422.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d73a90cdf9889db3fe30c12ec29307a7
+	at com.opencart.testLayer.LoginTest.verifyLoginTestWithValidDetails(LoginTest.java:20)
+
+verifyRegisterTestWithExistingAccountDetails(com.opencart.testLayer.RegisterTest)  Time elapsed: 20.337 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on windows (a52cbc3a209372f3738c4bb12dd02709)] -> xpath: //span[text()='My Account']] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.176, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53521}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53521/devtoo..., se:cdpVersion: 125.0.6422.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a52cbc3a209372f3738c4bb12dd02709
+	at com.opencart.testLayer.RegisterTest.verifyRegisterTestWithExistingAccountDetails(RegisterTest.java:49)
+
+verifyRegisterTestWithValidDetails(com.opencart.testLayer.RegisterTest)  Time elapsed: 20.266 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on windows (dbc98da3e8b158f54495120fad71415f)] -> xpath: //span[text()='My Account']] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.176, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53576}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53576/devtoo..., se:cdpVersion: 125.0.6422.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dbc98da3e8b158f54495120fad71415f
+	at com.opencart.testLayer.RegisterTest.verifyRegisterTestWithValidDetails(RegisterTest.java:21)
+
